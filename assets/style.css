@@ -1,0 +1,232 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+    text-decoration-color: #010101 ;
+    margin: 0 auto;
+    
+}
+.heroSection{
+    background: #fcdb00 ;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding-bottom: 60px;
+}
+.container{
+    padding-top: 52px;
+    width: 940px;
+    margin: 0 auto;
+}
+.navbar{
+    margin-bottom: 20px;
+}
+.logo{
+    float: left;
+    width: 50%;
+    height: auto;
+    text-align: left;
+}
+.menubar{
+    float: right;
+    width: 50%;
+    height: auto;
+}
+.menubar ul li{
+    display: inline-block;
+    margin-left: 70px;
+}
+.menubar ul li a{
+    text-decoration: none;
+    color: #010101;
+    font-weight: bold;
+}
+.menubar ul li:first-child a{
+    margin-left: 0px;
+}
+.menubar ul li a:hover{
+    text-decoration: underline;
+}
+.clear{
+    clear: both;
+}
+.herodesc{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+.leftSection{
+    float: left;
+    width: 50%;
+    height: auto;
+}
+.rightSection{
+    float: right;
+    width: 50%;
+    height: auto;
+    text-align: center;
+}
+.rightSection img{
+    margin-left:75px;
+}
+.heroDesc .leftSection h1{
+    font-size: 32px;
+}
+.heroDesc .leftSection .fsize1{
+    font-size: 20px;
+}
+.heroDesc .leftSection .fsize2{
+    font-size: 16px;
+}
+.icons{
+    color: black;
+    font-size: 42px;
+    margin-right: 15px;
+}
+.icons a:first-child{
+    margin-right: opx;
+}
+.secondSection{
+    padding-bottom: 60px;
+}
+.secondSection .container h2{
+    text-align: center;
+}
+.titleDesc{
+    text-align: center;
+    font-size: 16px;
+}
+.row{
+    width: 100%;
+    height: auto;
+    margin-bottom: 85px;   
+}
+.row:last-child{
+    margin-bottom: 0px;
+}
+.grid{
+    float: left;
+    height: auto;
+    width: 33.3%;
+}
+.part1{
+    float: left;
+    width: 60px;
+    height: auto;
+    font-size: 50px;
+    text-align: center;
+}
+.part2{
+    float: right;
+    width: calc(100% - 60px);
+    height: auto;
+    padding-left:15px;
+    box-sizing: border-box;
+}
+.part2 h3{
+    margin: 0px;
+    font-size: 22px;
+}
+.part2 p{
+    font-size: 16px;
+    color:  #898989;
+}
+.lastSection{
+    background: #101010 ;
+    padding: 90px 0px;
+}
+.lastSection .container h2{
+    text-align: center;
+    color: #fcdb00;
+}
+.lastSection .titleDesc{
+    color: #898989;
+}
+.contactForm{
+    width: 100%;
+    height: auto;
+}
+.contactForm input[type=text]{
+    height: 50px;
+    width: calc(100% - 160px);
+    border-radius: 8px;
+    margin-right: 10px;
+    padding: 0px 15px;
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+    border:2px solid #ffffff;
+}
+.contactForm input[type=text]:focus{
+    outline: 0px;
+    border:1px solid #fcdb00;
+}
+.contactForm input[type=submit]{
+    height: 50px;
+    width: 105px;
+    border-radius: 8px;
+    background: #fcdb00;
+    color: #010101;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 0px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.contactForm input[type=submit]:hover{
+    transition-duration: 0.4s;
+    background: #e8ca05;
+}
+.social{
+     width: 100%;
+     height: auto;
+     margin:50px 0px;
+     text-align: center;
+ }
+.social a{
+    width: 36px;
+    height: 36px;
+    border-radius: 5px;
+    line-height: 40px;
+    color: #010101;
+    background: #fcdb00;
+    display: inline-block;
+    text-align: center;
+    font-size: 28px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    margin-right: 15px;
+}
+.social a:hover{
+    transition-duration: 0.4s;
+    background: #e8ca05;
+}
+.social a:last-child{
+    margin-right: 0px;
+}
+.footerList{
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+}
+.footerList .footerGrid{
+    float: left;
+    color: white;
+    font-size: 16px;
+    width: 20%;
+}
+.footerList .footerGrid p{
+    line-height: 24px;
+}
+.footerList .footerGrid ul li{
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+.footerList .footerGrid ul li a{
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+.footerList .footerGrid ul li a:hover{
+    color: #fcdb00;
+    transition-duration: 0.4s;
+}
